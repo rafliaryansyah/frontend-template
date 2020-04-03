@@ -34,4 +34,30 @@ body {
   background-color: #1E3771;
   color: #FFF;
 }
+
+header {
+  margin-top: -68px;
+  padding: 180px 0 165px;
+  background-image: url("../images/header-background.jpg");
+  background-size: cover;
+}
+
+header h1, header p {
+  color: #FFF;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+header .btn-get-started {
+  background-color: #FF9E53;
+  color: #FFF;
+}
+
+header .btn-get-started:hover {
+  background-color: #FFAA69;
+  color: #FFF;
+}
 /*# sourceMappingURL=style.css.map */

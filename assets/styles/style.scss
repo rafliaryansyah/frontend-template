@@ -44,3 +44,32 @@ body {
     }
 }
 
+// Header
+header {
+    margin-top: -68px;
+    padding: 180px 0 165px;
+    background-image: url('../images/header-background.jpg');
+    background-size: cover;
+
+    h1, p {
+        color: #FFF;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+    }
+
+    
+    .btn-get-started {
+        background-color: #FF9E53;
+        color: #FFF;
+    
+        &:hover {
+            background-color: #FFAA69;
+            color: #FFF;
+        }
+    
+    }
+}
+
