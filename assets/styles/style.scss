@@ -73,3 +73,26 @@ header {
     }
 }
 
+// Statistic
+
+.section-stats {
+    margin-top: -21px;
+
+    .stats-detail {
+        padding-top: 15px;
+        background-color: #FFF;
+        padding-left: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+}

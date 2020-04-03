@@ -60,4 +60,25 @@ header .btn-get-started:hover {
   background-color: #FFAA69;
   color: #FFF;
 }
+
+.section-stats {
+  margin-top: -21px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #FFF;
+  padding-left: 40px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
 /*# sourceMappingURL=style.css.map */
