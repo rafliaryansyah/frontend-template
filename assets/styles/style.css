@@ -1,5 +1,5 @@
 body {
-  background-color: #E4E6EB;
+  background-color: #FFF;
   font-family: 'Assistant', sans-serif;
   color: #071C4D;
 }
@@ -172,6 +172,8 @@ header .btn-get-started:hover {
 }
 
 .section-testimonial-content {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
   margin-top: -300px;
   padding-bottom: 50px;
 }
@@ -226,5 +228,9 @@ header .btn-get-started:hover {
 .section-testimonial-content .btn-get-started:hover {
   background-color: #FF8C33;
   color: #fff;
+}
+
+.section-footer a {
+  color: #071C4D;
 }
 /*# sourceMappingURL=style.css.map */

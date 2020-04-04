@@ -1,5 +1,5 @@
 body {
-    background-color: #E4E6EB;
+    background-color: #FFF;
     font-family: 'Assistant', sans-serif;
     color: #071C4D;
 }
@@ -197,6 +197,7 @@ header {
 }
 
 .section-testimonial-content {
+    background: linear-gradient(#fff 0%, #f7f9ff 100%);
     margin-top: -300px;
     padding-bottom: 50px;
 
@@ -253,6 +254,13 @@ header {
         }
       }
 
+}
+
+.section-footer {
+    
+    a {
+        color: #071C4D;
+    }
 }
 
 
