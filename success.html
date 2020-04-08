@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOMADS</title>
+    <link rel="stylesheet" href="assets/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/libraries/xzoom/dist/xzoom.css">
+    <link rel="stylesheet" href="assets/libraries/gijgo/css/gijgo.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/images/logo.png" alt="Logo NOMADS">
+                </a>
+            </div>
+            <ul class="navbar-nav mr-auto d-none d-lg-block">
+                <li>
+                    <span class="text-muted">
+                        | &nbsp; Beyond the explorer of the world
+                    </span>
+                </li>
+            </ul>
+      </nav>
+    </div>
+
+    <main>
+        <div class="section-success d-flex align-items-center">
+            <div class="col text-center">
+                <img src="assets/images/ic_mail.png" alt="">
+                <h1>Yay! Success</h1>
+                <p>
+                    We've sent you email for trip instruction
+                    <br>
+                    please read it as well
+                </p>
+                    <a href="index.html" class="btn btn-home-page mt-3 px-5">
+                        Home Page
+                    </a>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/libraries/bootstrap/jquery-3.4.1.min.js"></script>
+    <script src="assets/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/libraries/retina/retina.min.js"></script>
+    <script src="assets/libraries/xzoom/dist/xzoom.min.js"></script>
+    <script src="assets/libraries/gijgo/js/gijgo.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#333',
+                Xoffset: 15
+            });
+
+            $('.datepicker').datepicker({
+                uiLibrary: 'bootstrap4',
+                icons: {
+                    rightIcon: '<img src="assets/images/ic_doe.png">'
+                }
+            })
+
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

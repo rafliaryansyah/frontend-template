@@ -237,7 +237,7 @@ header .btn-get-started:hover {
 .section-details-header {
   min-height: 310px;
   background: #E4E6EB;
-  margin-top: -80px;
+  margin-top: -110px;
 }
 
 .section-details-content {
@@ -272,6 +272,92 @@ header .btn-get-started:hover {
 .card-details p {
   font-size: 18px;
   color: #b1b1b1;
+}
+
+.card-details h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #071C4D;
+}
+
+.card-details .trip-informations th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071C4D;
+}
+
+.card-details .trip-informations td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.card-details .trip-informations .text-blue {
+  color: #071C4D;
+  font-weight: bold;
+}
+
+.card-details .trip-informations .text-orange {
+  color: #ff9e53;
+  font-weight: bold;
+}
+
+.card-details .payment-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.card-details .bank .bank-item h3 {
+  font-size: 18px;
+  color: #071C4D;
+  margin-bottom: 0;
+}
+
+.card-details .bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.card-details .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.card-details .bank .bank-item .description p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #071C4D;
+}
+
+.card-details .bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.card-details .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.card-details .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.card-details .btn-add-now {
+  background-color: #071C4D;
+  color: #FFF;
+}
+
+.card-details .btn-add-now:hover {
+  background-color: #1b3b86;
+  color: #FFF;
 }
 
 .card-right {
@@ -321,6 +407,11 @@ header .btn-get-started:hover {
   border: 4px solid #1AbC9C;
 }
 
+.member .member-image {
+  width: 40px;
+  height: 40px;
+}
+
 .join-container {
   margin-top: -16px;
 }
@@ -333,6 +424,33 @@ header .btn-get-started:hover {
 
 .btn-join-now:hover {
   background-color: #FFB57C;
+  color: #FFF;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #071C4D;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: #071C4D;
+  color: #FFF;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #2A488E;
   color: #FFF;
 }
 /*# sourceMappingURL=style.css.map */
